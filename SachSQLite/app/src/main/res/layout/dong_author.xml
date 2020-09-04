@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textViewSTT"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="STT"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewMaTacGia"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mã Tác Giả"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewTenTacGia"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên Tác Giả"
+            android:textSize="20dp"
+             />
+</LinearLayout>
